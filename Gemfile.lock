@@ -115,6 +115,7 @@ GEM
     multi_test (0.0.2)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
+    pg (0.15.1)
     polyglot (0.3.3)
     pry (0.9.12.3)
       coderay (~> 1.0)
@@ -217,11 +218,12 @@ DEPENDENCIES
   coffee-rails (= 4.0.1)
   cucumber-rails (= 1.4.0)
   database_cleaner!
-  factory_girl_rails (= 4.2.0)
+  factory_girl_rails
   faker (= 1.1.2)
   guard-rspec (= 2.5.0)
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
+  pg (= 0.15.1)
   rails (= 4.0.1)
   rails_12factor (= 0.0.2)
   rspec-rails (= 2.13.1)
